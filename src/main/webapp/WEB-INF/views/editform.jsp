@@ -12,19 +12,19 @@
   <form:hidden path="seq"/>
   <table id="edit">
     <tr>
-      <td>Category:</td>
+      <td>카테고리:</td>
       <td><form:input path="category"/></td>
     </tr>
     <tr>
-      <td>Title:</td>
+      <td>제목:</td>
       <td><form:input path="title"/></td>
     </tr>
     <tr>
-      <td>Writer:</td>
+      <td>작성자:</td>
       <td><form:input path="writer"/></td>
     </tr>
     <tr>
-      <td>Content:</td>
+      <td>내용:</td>
       <td><form:textarea path="content" cols="50" rows="5"/></td>
     </tr>
   </table>

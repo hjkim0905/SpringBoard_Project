@@ -4,30 +4,33 @@
 <html>
 <head>
   <title>Add Post</title>
+  <style>
+  button:hover {cursor: pointer;}
+  </style>
 </head>
 <body>
 
 <form action="addok" method="post">
   <table id="edit">
     <tr>
-      <td>Category:</td>
+      <td>카테고리:</td>
       <td><input type="text" name="category"/></td>
     </tr>
     <tr>
-      <td>Title:</td>
+      <td>제목:</td>
       <td><input type="text" name="title"/></td>
     </tr>
     <tr>
-      <td>Writer:</td>
+      <td>작성자:</td>
       <td><input type="text" name="writer"/></td>
     </tr>
     <tr>
-      <td>Content:</td>
+      <td>내용:</td>
       <td><textarea cols="50" rows="5" name="content"></textarea></td>
     </tr>
   </table>
-  <button type="button" onclick="location.href='list'">List</button>
-  <button type="submit">Submit</button>
+  <button type="button" onclick="location.href='list'">목록으로</button>
+  <button type="submit">제출</button>
 </form>
 
 </body>
