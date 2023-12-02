@@ -20,7 +20,7 @@ public class BoardController {
     BoardService boardService;
     @RequestMapping(value = "/")
     public String board(){
-        return "index";
+        return "home";
     }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
@@ -90,7 +90,7 @@ public class BoardController {
 
         model.addAttribute("serverTime", formattedDate );
 
-        return "index";
+        return "home";
     }
 
 }
